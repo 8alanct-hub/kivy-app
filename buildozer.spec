@@ -1,3 +1,6 @@
+[buildozer]
+source.dir = .
+
 [app]
 
 # (str) Title of your application
@@ -38,3 +41,4 @@ android.sdk = 33
 
 # (int) Minimum API level for Android
 android.minapi = 21
+
