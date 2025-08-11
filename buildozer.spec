@@ -22,7 +22,7 @@ version = 0.1
 orientation = portrait
 
 # (str) Application icon
-icon.filename = %(source.dir)s/logo.png
+icon.filename = logo.png
 
 # (bool) Indicate if the application should be fullscreen
 fullscreen = 1
