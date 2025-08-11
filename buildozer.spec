@@ -64,7 +64,7 @@ orientation = portrait
 # presplash.filename = %(source.dir)s/presplash.png
 
 # (str) Application icon
-# icon.filename = %(source.dir)s/icon.png
+icon.filename = %(source.dir)s/logo.png
 
 # (str) Supported orientation
 # e.g. portrait, landscape, all
@@ -85,3 +85,4 @@ android.sdk = 33
 
 # (int) Minimum API level for Android
 android.minapi = 21
+
