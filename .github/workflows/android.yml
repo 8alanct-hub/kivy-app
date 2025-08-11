@@ -27,6 +27,7 @@ jobs:
           pip install --upgrade buildozer cython
 
       - name: Build APK
+        working-directory: ./
         run: buildozer android debug
 
       - name: Upload APK artifact
