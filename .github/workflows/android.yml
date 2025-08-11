@@ -26,9 +26,13 @@ jobs:
 
           pip install --upgrade buildozer cython
 
+      - name: List current directory files
+        run: ls -la
+        working-directory: ./
+
       - name: Build APK
         working-directory: ./
-        run: buildozer android debug
+        run: buildozer -v -d . -f buildozer.spec android debug
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
